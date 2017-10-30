@@ -64,7 +64,7 @@ public class HW2 {
 
 }
 /**
- * Description: TODO: please add description here闁瑨锛侀弰顖氭啞鐟峰鈻煎蹇曢檮閸忚鲸婀�52瀵數澧濋敍灞肩敨娑撴梹鐦″鐢靛娑撳秴鎮撻惃鍕С閼规彃寮烽弫绋跨摟X瀵繗濮抽懝鐬冮弰顖涙毄鐎涳拷
+ * Description: TODO: please add description here definition how many card they are and put the deck into it add three loop ,X represent suit,Y represent rank
  */
 class Deck{
 	private ArrayList<Card> cards;
@@ -87,14 +87,14 @@ for(int X =1; X<=4; X++)
 		//Sample code start
 		//Card card=new Card(1,1);->meansnew card as clubs ace
 		//cards.add(card);
-		//Sample code end//閸擄拷52瀵數澧濋崚鎵潗娑撳綊鍣�
+		//Sample code end//definition how many cards thet are
 
 	}	
 	//TODO: Please implement the method to print all cards on screen (10 points)
 	public void printDeck(){
 		//Hint: print all items in ArrayList<Card> cards, 
 		//TODO: please implement and reuse printCard method in Card class (5 points)
-		//閹讹拷52瀵數澧漰rint閸戣桨绶�
+		//print all card
 		int a=cards.size();
 		for(int i=0;i<=a-1;i++)
 		{
@@ -108,10 +108,10 @@ for(int X =1; X<=4; X++)
 	}
 }
 /**
- * Description: TODO: please add description here闂侇偅鐟ㄩ敍渚�寮伴婊勵仯闁绘鐬煎▓鎴︽焾閵娿儱鐎婚柨娑樿嫰閻綁骞嶉敓浠嬪箯閸喖鐓傞柣銊ュ鐢捇宕堕悙鎻掍虎闁告帞娅沴ass card閻熶緤鎷�
+ * Description: TODO: please add description here this method set every card ,let suit and rank transfor from number to word
  */
 class Card{
-	private int suit; //Definition: 1~4, Clubs=1, Diamonds=2, Hearts=3, Spades=4闁兼眹鍎撮々锔撅拷瑙勬皑娴滎剛浜告潏顐矗闁活澁鎷� String[] suits = {"Spades", "Hearts", "Diamonds", "Clubs"};
+	private int suit; //Definition: 1~4, Clubs=1, Diamonds=2, Hearts=3, Spades=4 if I need to definition the suit and rank  String[] suits = {"Spades", "Hearts", "Diamonds", "Clubs"};
 	  //String[] ranks = {"Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"};
 
 	private int rank; //1~13
